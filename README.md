@@ -1,7 +1,7 @@
 # Python Data Science Handbook
 
 [![Binder](https://mybinder.org/badge.svg)](https://mybinder.org/v2/gh/jakevdp/PythonDataScienceHandbook/master?filepath=notebooks%2FIndex.ipynb)
-[![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/jakevdp/PythonDataScienceHandbook/blob/master/notebooks/Index.ipynb)
+[![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/cpearce/PythonDataScienceHandbook/blob/master/notebooks/Index.ipynb)
 
 This repository contains the entire [Python Data Science Handbook](http://shop.oreilly.com/product/0636920034919.do), in the form of (free!) Jupyter notebooks.
 
@@ -9,15 +9,15 @@ This repository contains the entire [Python Data Science Handbook](http://shop.o
 
 ## How to Use this Book
 
-- Read the book in its entirety online at https://jakevdp.github.io/PythonDataScienceHandbook/
+-   Read the book in its entirety online at https://jakevdp.github.io/PythonDataScienceHandbook/
 
-- Run the code using the Jupyter notebooks available in this repository's [notebooks](notebooks) directory.
+-   Run the code using the Jupyter notebooks available in this repository's [notebooks](notebooks) directory.
 
-- Launch executable versions of these notebooks using [Google Colab](http://colab.research.google.com): [![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/jakevdp/PythonDataScienceHandbook/blob/master/notebooks/Index.ipynb)
+-   Launch executable versions of these notebooks using [Google Colab](http://colab.research.google.com): [![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/cpearce/PythonDataScienceHandbook/blob/master/notebooks/Index.ipynb)
 
-- Launch a live notebook server with these notebooks using [binder](https://beta.mybinder.org/): [![Binder](https://mybinder.org/badge.svg)](https://mybinder.org/v2/gh/jakevdp/PythonDataScienceHandbook/master?filepath=notebooks%2FIndex.ipynb)
+-   Launch a live notebook server with these notebooks using [binder](https://beta.mybinder.org/): [![Binder](https://mybinder.org/badge.svg)](https://mybinder.org/v2/gh/jakevdp/PythonDataScienceHandbook/master?filepath=notebooks%2FIndex.ipynb)
 
-- Buy the printed book through [O'Reilly Media](http://shop.oreilly.com/product/0636920034919.do)
+-   Buy the printed book through [O'Reilly Media](http://shop.oreilly.com/product/0636920034919.do)
 
 ## About
 
@@ -40,7 +40,7 @@ To install the requirements using [conda](http://conda.pydata.org), run the foll
 $ conda install --file requirements.txt
 ```
 
-To create a stand-alone environment named ``PDSH`` with Python 3.5 and all the required package versions, run the following:
+To create a stand-alone environment named `PDSH` with Python 3.5 and all the required package versions, run the following:
 
 ```
 $ conda create -n PDSH python=3.5 --file requirements.txt
@@ -48,11 +48,12 @@ $ conda create -n PDSH python=3.5 --file requirements.txt
 
 You can read more about using conda environments in the [Managing Environments](http://conda.pydata.org/docs/using/envs.html) section of the conda documentation.
 
-
 ## License
 
 ### Code
+
 The code in this repository, including all code samples in the notebooks listed above, is released under the [MIT license](LICENSE-CODE). Read more at the [Open Source Initiative](https://opensource.org/licenses/MIT).
 
 ### Text
+
 The text content of the book is released under the [CC-BY-NC-ND license](LICENSE-TEXT). Read more at [Creative Commons](https://creativecommons.org/licenses/by-nc-nd/3.0/us/legalcode).

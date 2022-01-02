@@ -21,7 +21,7 @@ NAV_COMMENT = "<!--NAVIGATION-->\n"
 
 COLAB_LINK = """
 
-<a href="https://colab.research.google.com/github/jakevdp/PythonDataScienceHandbook/blob/master/notebooks/{notebook_filename}"><img align="left" src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open in Colab" title="Open and Execute in Google Colaboratory"></a>
+<a href="https://colab.research.google.com/github/cpearce/PythonDataScienceHandbook/blob/master/notebooks/{notebook_filename}"><img align="left" src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open in Colab" title="Open and Execute in Google Colaboratory"></a>
 """
 
 
@@ -37,7 +37,7 @@ def iter_navbars():
                                            url=next_nb)
 
         navbar += COLAB_LINK.format(notebook_filename=os.path.basename(nb))
-            
+
         yield os.path.join(NOTEBOOK_DIR, nb), navbar
 
 
