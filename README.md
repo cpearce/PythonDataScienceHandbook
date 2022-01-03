@@ -1,5 +1,23 @@
 # Python Data Science Handbook
 
+> ## Adaptions from upstream
+>
+> This is a fork of https://github.com/jakevdp/PythonDataScienceHandbook with the dependencies and ML notebooks updated to work with the current stable version of SciKit.
+>
+> The following ipydb notebooks were updated to work in current stable SciKit:
+>
+> -   [5.03: Hyperparameters and Model Validation](notebooks/05.03-Hyperparameters-and-Model-Validation.ipynb)
+> -   [5.04: Feature Engineering](notebooks/05.04-Feature-Engineering.ipynb)
+> -   [5.05: In Depth: Naive Bayes Classification](notebooks/05.05-Naive-Bayes.ipynb)
+> -   [5.06: In Depth: Linear Regression](notebooks/05.06-Linear-Regression.ipynb)
+> -   [5.07: In-Depth: Support Vector Machines](notebooks/05.07-Support-Vector-Machines.ipynb)
+> -   [5.08: In-Depth: Decision Trees and Random Forests](notebooks/05.08-Random-Forests.ipynb)
+> -   [5.09: In Depth: Principal Component Analysis](notebooks/05.09-Principal-Component-Analysis.ipynb)
+> -   [5.11: In Depth: k-Means Clustering](notebooks/05.11-K-Means.ipynb)
+> -   [5.14: Application: A Face Detection Pipeline](notebooks/05.14-Image-Features.ipynb)
+>
+> The other notebooks haven't been tested with the current stable version of Google Colab, so may or may not work!
+
 [![Binder](https://mybinder.org/badge.svg)](https://mybinder.org/v2/gh/jakevdp/PythonDataScienceHandbook/master?filepath=notebooks%2FIndex.ipynb)
 [![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/cpearce/PythonDataScienceHandbook/blob/master/notebooks/Index.ipynb)
 
